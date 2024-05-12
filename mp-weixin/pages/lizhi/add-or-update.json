@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#5aa7a7",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "离职申请添加/修改",
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker"
+  }
+}

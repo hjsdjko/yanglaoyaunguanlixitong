@@ -1,0 +1,116 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/changepassword/changepassword",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/chuangwei/list",
+    "pages/chuangwei/list2",
+    "pages/chuangwei/add-or-update",
+    "pages/chuangwei/detail",
+    "pages/chuangweiYuyue/list",
+    "pages/chuangweiYuyue/list2",
+    "pages/chuangweiYuyue/add-or-update",
+    "pages/chuangweiYuyue/detail",
+    "pages/chuyaun/list",
+    "pages/chuyaun/list2",
+    "pages/chuyaun/add-or-update",
+    "pages/chuyaun/detail",
+    "pages/diaodong/list",
+    "pages/diaodong/list2",
+    "pages/diaodong/add-or-update",
+    "pages/diaodong/detail",
+    "pages/fangjian/list",
+    "pages/fangjian/list2",
+    "pages/fangjian/add-or-update",
+    "pages/fangjian/detail",
+    "pages/gonggao/list",
+    "pages/gonggao/list2",
+    "pages/gonggao/add-or-update",
+    "pages/gonggao/detail",
+    "pages/hugong/list",
+    "pages/hugong/list2",
+    "pages/hugong/add-or-update",
+    "pages/hugong/detail",
+    "pages/jiashu/list",
+    "pages/jiashu/list2",
+    "pages/jiashu/add-or-update",
+    "pages/jiashu/detail",
+    "pages/jilu/list",
+    "pages/jilu/list2",
+    "pages/jilu/add-or-update",
+    "pages/jilu/detail",
+    "pages/laoren/list",
+    "pages/laoren/list2",
+    "pages/laoren/add-or-update",
+    "pages/laoren/detail",
+    "pages/laorenqingjia/list",
+    "pages/laorenqingjia/list2",
+    "pages/laorenqingjia/add-or-update",
+    "pages/laorenqingjia/detail",
+    "pages/lizhi/list",
+    "pages/lizhi/list2",
+    "pages/lizhi/add-or-update",
+    "pages/lizhi/detail",
+    "pages/qingjia/list",
+    "pages/qingjia/list2",
+    "pages/qingjia/add-or-update",
+    "pages/qingjia/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "养老院管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#a7d676",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/chuangwei/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "床位"
+      },
+      {
+        "pagePath": "pages/gonggao/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "公告信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}

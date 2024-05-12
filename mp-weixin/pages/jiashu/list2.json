@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#5aa7a7",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "我的家属",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}
